@@ -1,0 +1,135 @@
+.priceitem {
+  display: flex;
+  align-items: center;
+}
+.priceitem span {
+  width: 60px;
+  height: 100%;
+  background: #c4d0d9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.status-p {
+  padding: 0;
+  width: 230px;
+  z-index: 33;
+  position: static !important;
+}
+.status-p .background-main {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.status-p .background-total {
+  width: 95%;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0px 4px 7px 0px rgba(121, 137, 148, 0.16);
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+}
+.status-p .background-total .b-t-f {
+  padding: 0 10px 6px;
+}
+.status-p .background-total .b-t-f p {
+  display: flex;
+  align-items: center;
+}
+.status-p .background-total .b-t-f p label {
+  width: 101px;
+  text-align: right;
+}
+.status-p .background-total .b-t-f p input {
+  width: 85px;
+}
+.status-p .background-total .b-t-f .ant-form-item-label {
+  width: 101px;
+  text-align: right;
+}
+.status-p .background-total .b-t-f .ant-form-item-control-wrapper {
+  width: 48%;
+}
+.status-p .background-total p {
+  margin: 0 0 4.5px;
+  color: #4F4F4F;
+}
+.status-p .b-m-h {
+  width: 100%;
+  height: 60px;
+  padding: 0 24px;
+  line-height: 56px;
+  background: url(../../../../static/img/b1.png);
+  background-size: 100% 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.status-p .b-m-h p {
+  color: #333333;
+}
+.status-p .b-m-h span {
+  color: #4AAAF3;
+  cursor: pointer;
+}
+.h-l-s {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inforammain {
+  background: url(../../../../static/img/inforam.png);
+  min-height: 187px;
+  width: 100%;
+  padding-top: 20px;
+  background-size: 100% 100%;
+  position: relative;
+}
+.inforammain .top {
+  margin-left: 19%;
+  color: #798994;
+}
+.inforammain .top P {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+.inforammain .top span {
+  font-size: 12px;
+}
+.inforammain .bottom {
+  padding: 20px;
+  color: #798994;
+  width: 62%;
+}
+.inforammain .close {
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  color: #798994;
+  cursor: pointer;
+  right: 20px;
+}
+.inforammain .button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.allmain {
+  background: #fff;
+  padding: 40px;
+}
+.shop-footer-btn {
+  bottom: -15px;
+}
+.shop-footer-btn div {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,113 @@
+#pagination {
+    .page-content {
+        display: flex;
+        justify-content: flex-end;
+        margin: 16px 0;
+
+        .text-content {
+            padding-top: 2px;
+
+            span {
+                display: inline-block;
+
+                .page();
+                width: auto;
+            }
+
+            .text-active {
+                .activePage();
+            }
+        }
+
+        .page() {
+            height: 24px;
+            min-width: 24px;
+            line-height: 24px;
+            border-radius: 4px;
+            margin-right: 8px;
+            vertical-align: middle;
+            list-style: none;
+            background-color: #fff;
+            border: 1px solid #dcdcdc;
+            outline: 0;
+            padding: 0 6px;
+            color: #333;
+            transition: none;
+            cursor: pointer;
+            user-select: none;
+            font-family: Arial;
+            text-align: center;
+
+            &:focus,
+            &:hover {
+                border-color: #4AAAF1;
+                transition: all 0.3s;
+                color: #4AAAF1;
+            }
+        }
+
+        .activePage() {
+            border: 1px solid #4AAAF3;
+            background-color: #4AAAF3;
+            color: #fff;
+            &:hover{
+                color: #78c9ff;
+            }
+        }
+
+        .prev-page,
+        .next-page {
+            .page();
+            border: 1px solid #eee;
+            background: #fff;
+            // margin:0 3px;
+            margin-top: 3px;
+            margin-right: 8px;
+        }
+
+        button[disabled],
+        .next-page[disabled] {
+            color: #cfcfcf;
+            border-color: #dcdcdc;
+            cursor: not-allowed;
+            &:hover {
+                cursor: not-allowed;
+                color: #cfcfcf;
+                border-color: #dcdcdc;
+            }
+        }
+
+        .text-total {
+            height: 32px;
+            margin-right: 8px;
+            line-height: 32px;
+            color: #292929;
+        }
+
+        .jump {
+            margin: 0 6px;
+
+            input {
+                width: 40px;
+                height: 32px;
+                border: 1px solid #ddd;
+                margin: 0 8px;
+                padding: 0 6px;
+
+                &focus {
+                    border: 1px solid #1890ff;
+                }
+            }
+
+        }
+
+        .pageSize {
+            margin-right: 8px;
+            margin-left: 8px;
+
+            select {
+                width: 100px;
+            }
+        }
+    }
+}

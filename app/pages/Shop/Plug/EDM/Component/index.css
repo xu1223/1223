@@ -1,0 +1,8 @@
+.variate-main p {
+  cursor: pointer;
+}
+.templatetooltip .ant-tooltip-inner {
+  width: 1000px;
+  height: 500px;
+  overflow-y: auto;
+}

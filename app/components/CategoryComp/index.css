@@ -1,0 +1,103 @@
+.categoryItem {
+  width: 100%;
+  background: #fff;
+  height: 800px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 110px;
+  font-size: 12px!important;
+  z-index: 2;
+  border: 1px solid #eeeeee;
+}
+.categoryItem .searchParentCate {
+  color: #4AAAF3;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.categoryItem .ant-menu {
+  font-size: 12px;
+  border: none;
+  border-top: 1px solid rgba(100, 114, 133, 0.1);
+}
+.categoryItem .ant-menu-submenu-title {
+  font-size: 12px;
+}
+.categoryItem .ant-menu-submenu-arrow {
+  right: 25px!important;
+}
+.categoryItem .categoryTitle {
+  padding: 0 18px 0 20px;
+  font-size: 14px;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #4F4F4F !important;
+  height: 40px;
+  position: absolute;
+  left: 5px;
+  top: 0;
+  line-height: 40px;
+  background: #e6eaeb;
+  width: 98%;
+  z-index: 4;
+}
+.categoryItem .ant-menu-submenu-vertical .ant-menu-submenu-title {
+  padding: 0 20px;
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+}
+.categoryItem .inputSearch {
+  text-align: center;
+  padding: 20px 0;
+  background: #fff;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 4;
+  top: 40px;
+}
+.categoryItem .inputSearch input {
+  width: 90%;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #888888;
+  line-height: 30px;
+  text-align: left!important;
+}
+.categoryItem .inputSearch svg {
+  width: 1.5em;
+  height: 1.5em;
+  color: #d0d0d0;
+}
+.categoryItem .categoryText {
+  font-size: 12px;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #8E8E8E;
+  margin-left: 25px;
+}
+.categoryItem .categoryDiv {
+  border-bottom: 1px solid rgba(100, 114, 133, 0.1);
+  padding-left: 15px;
+}
+.categoryItem .ant-menu-vertical .ant-menu-item {
+  margin: 0;
+}
+.ant-menu-submenu-selected {
+  background: #e2ebff;
+}
+.ant-menu-item-selected {
+  background: #e2ebff;
+}
+.categoryItem::-webkit-scrollbar {
+  width: 0px;
+}
+.childerMenu {
+  color: #f00;
+}

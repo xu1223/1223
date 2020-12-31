@@ -1,0 +1,72 @@
+.editable-cell {
+    position: relative;
+  }
+  
+  .editable-cell-value-wrap {
+    padding: 8px 12px;
+    min-height: 32px;
+    cursor: pointer;
+    
+  }
+  
+  .editable-row{
+    .ant-form-explain{
+        position: absolute;
+        font-size: 12px;
+        margin-top: -4px;
+    }
+  }
+
+  .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 7px 11px;
+  }
+
+  .edit-sync{
+    color:#4AAAF3;
+    font-size:16px;
+    margin-left:5px;
+    vertical-align: middle
+  }
+
+  #rowEditTable{
+    .ant-table-thead > tr > th.ant-table-selection-column, .ant-table-tbody > tr > td.ant-table-selection-column {
+      min-width: 30px;
+      max-width: 30px;
+      width: 30px;
+    }
+    .ant-form-item{
+      margin-bottom: 0
+    }
+    .ant-form-explain{
+      position: absolute;
+      bottom: -18px;
+      font-size: 12px;
+    }
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+      padding:10px 5px;
+    }
+    .ant-table-tbody .ant-table-expanded-row  > td {
+      padding: 0;
+    }
+  }
+
+  .hxInputGroup {
+    .startInput, .endInput{
+      width: 40%!important; 
+      text-align: center;
+      .endInput{
+        border-left: 0;
+      }
+    }
+    .spanInput{
+      width: 20%!important; 
+      border-left: 0;
+      pointer-events: none;
+      background-color: #fff;
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,86 @@
+
+
+    form.search-comp-wrap,div.search-comp-wrap{
+        position: relative;
+        padding: 20px !important;
+        background: #fff;
+        border-radius: 4px;
+        margin:0 0px 10px;
+        transition: all 1s ease;
+        box-shadow:0px 1px 4px 0px rgba(196,209,212,0.2);
+        display: flex;
+        &.nowrap {
+            box-shadow: none;
+            padding: 0 !important;
+        }
+        .search-comp-tool{
+            position: relative;
+            flex-shrink: 0;
+            padding-left: 10px;
+            flex-grow: 1;
+            text-align: end;
+            line-height: 36px;
+            .search-button{
+                margin-bottom: 10px;
+            }
+            .show-more{
+                display: table;
+                color:#4AAAF3;
+                margin-left: 40px;
+                margin-top: 10px;
+                width: 15px;
+                line-height: 15px;
+                font-size: 15px;
+                .anticon{
+                    cursor: pointer;
+                }
+            }
+        }
+        .search-comp{
+            flex: 1;
+            padding-right: 20px;
+            margin-bottom: -10px;
+            .search-item{
+                margin-bottom: 10px;
+                &.none{
+                    display: none;
+                }
+                .compact-item{
+                    display: flex;
+                }
+                .between-left,.between-right{
+                    flex:3;
+                    text-align: center;
+                }
+                .between-right{
+                    border-left: 0
+                }
+                .between-split{
+                    width: 30px; 
+                    border-left: 0;
+                    pointer-events: none;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+    .compactLabel{
+        height: 32px;
+        line-height: 32px;
+        text-align: right;
+        padding-right: 10px;
+        box-sizing: border-box;
+        flex:2;
+        flex-shrink: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .skuStyle{
+        form.search-comp-wrap{
+            display: flex!important;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+    }

@@ -1,0 +1,69 @@
+    .report-main{
+     padding:  40px;
+     background: #fff;
+            .title{
+                margin-bottom: 20px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                margin: 20px 0 ;
+            }
+            .title::before{
+                content: '';
+                height: 15px;
+                width: 4px;
+                background: #4aa9f3;
+                display: block;
+                margin-right: 3px;
+        
+            }
+    }
+.Operation-tab{
+   display: grid;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
+   grid-gap: 20px 20px;
+   .item{
+       display: flex;
+       align-items: center;
+       .le{
+        color: #1890ff;
+        background: #e6f7ff;
+        border-color: #91d5ff;
+        padding: 10px ;
+        min-width: 130px;
+       }
+       .ri{
+        background: #fafafa;
+        border: 1px solid #d9d9d9;
+        padding: 10px ;
+        min-width: 130px;
+       }
+   }
+}
+.operation-echart-main{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-gap: 20px 20px;
+}
+.operation-echart{
+    .operation-echart-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .ri{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.echart-error-box{
+    text-align: center;
+    margin: 120px 0;
+    >span{
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover{
+            color: #4AAAF3;
+        }
+    }
+}

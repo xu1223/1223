@@ -1,0 +1,216 @@
+.Memberoverview {
+  margin: 40px 0 20px  0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px 0px rgba(196, 209, 212, 0.2);
+  border-radius: 5px;
+  height: 260px;
+}
+.Memberoverview .title {
+  height: 50px;
+  padding-left: 48px;
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 14px;
+  font-weight: 400;
+  color: #798994;
+  line-height: 50px;
+}
+.Memberoverview .cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 80px;
+}
+.Memberoverview .cont .item {
+  width: 31%;
+  height: 125px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px 0px rgba(100, 114, 133, 0.19);
+  border-radius: 8px;
+  position: relative;
+}
+.Memberoverview .cont .item .top {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.Memberoverview .cont .item .top p {
+  margin-top: 20px;
+}
+.Memberoverview .cont .item .bottom {
+  padding: 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Memberoverview .cont .item .bottom p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+.Memberoverview .cont .item .bottom span {
+  font-size: 30px ;
+  color: #FD9B52;
+}
+.Memberoverview .cont .itemdays {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background: linear-gradient(-29deg, #df3f25 0%, #fc7f2b 100%);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0 3px;
+  font-weight: 400;
+  top: 10px;
+  right: -20px;
+  color: #f5fafe;
+}
+.Memberoverview .cont .itemfont {
+  position: relative;
+}
+.Memberoverview .cont .itemfont p {
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4f4f4f;
+  margin: 10px;
+}
+.Memberoverview .cont .itemfont span {
+  display: block;
+  text-align: right;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #c9c9c9;
+}
+.Memberinfo {
+  height: 260px;
+  margin: 40px  20px 0px 3px ;
+  padding: 36px 20px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px 0px rgba(196, 209, 212, 0.2);
+  border-radius: 5px;
+}
+.Memberinfo .top {
+  font-size: 24px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.Memberinfo .edit {
+  font-size: 12px;
+  font-weight: 400;
+  color: #4aaaf3;
+  text-decoration: underline;
+  text-align: right;
+  cursor: pointer;
+}
+.editaddress .add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background: #ffffff;
+  border: 1px solid #4aaaf3;
+  border-radius: 4px;
+}
+.editaddress .con .item {
+  padding: 20px 40px;
+  padding-right: 110px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  margin: 10px 0;
+  position: relative;
+}
+.editaddress .con .item img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+.editaddress .con .item .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.editaddress .con .item .top a {
+  border-bottom: 1px solid;
+}
+.editaddress .con .item .top a:nth-child(2) {
+  color: #BBBBBB;
+  margin-left: 10px;
+}
+.editaddress .con .item .bottom {
+  color: #807F7F;
+}
+.editaddress .con .item .icon {
+  position: absolute;
+  left: 19px;
+  top: 24px;
+  cursor: pointer;
+}
+.editaddress .con .ative {
+  border: 1px solid #4aaaf3;
+}
+.editaddress .con .ative .icon {
+  color: #4AAAF3;
+}
+.editaddress .con .ative img {
+  display: block;
+}
+.single {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+}
+.single img {
+  width: 50%;
+}
+.single .single-rihgt {
+  margin-left: 10px;
+}
+.single .single-rihgt p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.single .single-rihgt li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f4f4f;
+  line-height: 27px;
+}
+.single .single-rihgt em {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FD9B52;
+  font-style: initial;
+}
+.single .single-rihgt ul {
+  padding: 0;
+}
+.tabtoal {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  background: #Fff;
+}
+.tab-title {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabSwitching {
+  background: #fff;
+  padding: 10px ;
+}
+.tab-link {
+  display: block;
+  text-align: right;
+  margin: 20px;
+}

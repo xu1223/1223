@@ -1,0 +1,113 @@
+.productEditWrap {
+  padding: 40px;
+  padding-bottom: 100px;
+}
+.productEditWrap .RightToolWrap {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 40px);
+  padding: 20px 0;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0px -2px 6px 0px rgba(100, 114, 133, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}
+.productEditWrap .nav-button-style {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.productEditWrap .MainContent {
+  box-shadow: 0px 2px 6px 0px rgba(100, 114, 133, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}
+.productEditWrap .MainContent .ant-table-tbody {
+  background: #fff;
+}
+.productEditWrap .right-nav-style {
+  background: #fff;
+  height: 100%;
+  position: fixed;
+  width: 7%;
+  margin-left: 18px;
+}
+.productEditWrap .address-style {
+  width: 92%;
+}
+.productEditWrap .address-style .ant-card-head {
+  height: 40px;
+  line-height: 8px;
+  font-size: 12px;
+  background-color: #e6eaeb;
+}
+.productEditWrap .template-style {
+  text-align: center;
+  line-height: 200px;
+  vertical-align: middle;
+}
+.productEditWrap .explain-icon-styles {
+  position: absolute;
+  top: 4px;
+  z-index: 10;
+  left: 74px;
+}
+.productEditWrap .explain-styles {
+  position: absolute;
+  top: 4px;
+  z-index: 10;
+  left: 88px;
+}
+.sizer-table .sizer-table-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background: #e6eaeb;
+  border-radius: 3px;
+}
+.sizer-table .sizer-table-header p {
+  width: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #798994;
+}
+.sizer-table-item {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #edeff1;
+  border-radius: 4px;
+}
+.sizer-table-item .item {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sizer-add {
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #84c6ff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #84C6FF;
+  margin-top: 20px;
+}
+.bottom-button-main {
+  border-top: 10px solid #f0f2f5;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-align: right;
+  transition: all 1s ease;
+  margin: 0 20px;
+  box-shadow: 0px 1px 4px 0px rgba(196, 209, 212, 0.2);
+}

@@ -1,0 +1,15 @@
+.bread-nav {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px #919191;
+}
+.bread-nav .ant-tabs-bar {
+  margin-bottom: 0;
+  padding: 0 35px;
+}
+.bread-nav .ant-tabs-bar .ant-tabs-tab {
+  background: #fff !important;
+}
+.bread-nav .ant-tabs-bar .ant-tabs-close-x {
+  background: #d2d2d2 !important;
+}

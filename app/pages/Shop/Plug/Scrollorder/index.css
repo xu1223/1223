@@ -1,0 +1,61 @@
+.Basic-main {
+  padding-bottom: 130px;
+  min-height: 900px;
+}
+.Basic-main .Parameter-item {
+  padding: 40px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+.Basic-main .Parameter-item p {
+  margin-bottom: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.Basic-main .Parameter-item P::before {
+  content: '';
+  height: 15px;
+  width: 4px;
+  background: #4aa9f3;
+  display: block;
+  margin-right: 3px;
+}
+.Basic-main .Parameter-grid1 {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: 50px 300px 300px;
+}
+.Basic-main .Parameter-grid2 {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: 180px 180px 180px 180px;
+}
+.Basic-main .Parameter-grid3 {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Basic-main .parameter-question {
+  margin-left: 10px;
+  color: #4486F7;
+}
+.lottery-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.lottery-item .anticon-delete {
+  color: #ff4d4f;
+  cursor: pointer;
+  font-size: 18px;
+}
+.lottery-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lottery-add i {
+  margin-left: 10px;
+  font-size: 18px;
+}

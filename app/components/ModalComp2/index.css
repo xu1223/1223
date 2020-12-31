@@ -1,0 +1,44 @@
+.myclose-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 17px;
+  cursor: pointer;
+  border-radius: 100%;
+  font-size: 10px;
+  color: #fff;
+  background: #b2b2b2;
+  border: 1px solid #b2b2b2;
+}
+.ant-drawer-header {
+  padding: 24px 40px 17px;
+}
+.drawer-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e8e8e8;
+  padding: 20px 16px;
+  text-align: right;
+  left: 0;
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  z-index: 1000;
+}
+.alert-group {
+  width: 100%;
+}
+.alert-group .ant-alert-warning {
+  border: none;
+  /* margin: -30px -60px 0 -40px; */
+  border-radius: 0;
+}
+.ant-drawer-content {
+  position: initial;
+}
+.ant-drawer-body {
+  padding: 30px 60px 110px 40px;
+}

@@ -1,0 +1,106 @@
+.anchor-class {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    z-index: 9999;
+    overflow: hidden;
+
+    >ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 52px;
+        overflow: hidden;
+        transition:  all .5s;
+        -moz-transition:  all .5s;
+        -webkit-transition:  all .5s;
+        -o-transition: all .5s;
+        .anchor-item {
+            display: inline-flex;
+            align-items: center;
+            color: #A5A9B6;
+            font-size: 14px;
+            height: 32px;
+            margin: 4px 0;
+            white-space:nowrap;
+            cursor: pointer;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 22px;
+                left: 16px;
+                width: 1px;
+                @val: 42px;
+                height: calc(~"100% - @{val}");
+                background-color: #4486F7;
+            }
+
+            .iconBox {
+                display: inline-flex;
+                width: 32px;
+                height: 32px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                margin-right: 10px;
+                position: relative;
+
+                .anticon {
+                    font-size: 16px;
+                    display: none;
+                }
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 8px;
+                    height: 8px;
+                    background-color: #4486F7;
+                    border-radius: 50%;
+                }
+            }
+
+            .txtNav {
+                opacity: 0;
+                line-height: 32px;
+                transition:  all .5s;
+                width: 100px;
+                white-space:nowrap;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+
+            &.active {
+                color: #404040;
+
+                .iconBox {
+                    background-color: #fff;
+                    border: 1px solid #4486F7;
+                    position: relative;
+                    z-index: 1;
+
+                    .anticon {
+                        color: #febc06;
+                        display: inline-block;
+                    }
+
+                    &::after,
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        >ul{
+            width: 132px;
+        }
+        .anchor-item {
+            .txtNav {
+                opacity: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.meber-shop-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.meber-shop-main .le {
+  width: 80px;
+  margin-right: 20px;
+}
+.meber-shop-main .le img {
+  width: 100%;
+  border-radius: 6px;
+}
+.meber-shop-main .ri .title {
+  font-size: 12px;
+  font-weight: 400;
+  color: #4f4f4f;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.meber-shop-main .ri .r-conter {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 24px;
+  margin-right: 40px;
+}
+.meber-shop-main .ri .ri-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.meber-shop-main .ri .ri-bottom p {
+  font-weight: 700;
+  color: #FD9B52;
+  font-size: 18px;
+}
+.meber-shop-main .ri .ri-bottom span {
+  color: #4F4F4F;
+  font-size: 14px;
+}
+.meber-shop-main .ri .ri-bottom img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}

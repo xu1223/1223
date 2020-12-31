@@ -1,0 +1,30 @@
+.restTableStyle .ant-table-body {
+  max-height: 100% !important;
+}
+.restTableStyle.fixed .ant-table-header {
+  position: fixed;
+  top: 54px;
+  z-index: 8;
+}
+.restTableStyle .row-table-default {
+  background: #fff !important;
+}
+.restTableStyle .row-table-default.row-table-blue {
+  background: #eef4fe !important;
+}
+.restTableStyle .row-table-default.row-table-tool {
+  background: #f4f4f4 !important;
+}
+.restTableStyle .row-table-default:hover td {
+  background: transparent;
+}
+.restTableStyle .row-table-more {
+  text-align: center;
+  color: '#4c74b9';
+  display: block;
+  width: '100%';
+}
+.row-table-moreSKU-center {
+  display: block;
+  text-align: center;
+}

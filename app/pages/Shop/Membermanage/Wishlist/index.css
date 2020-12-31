@@ -1,0 +1,12 @@
+.tool-title {
+  display: flex;
+  align-items: center;
+}
+.tool-title p {
+  color: #666666;
+  margin-right: 5px;
+}
+.tool-title p span {
+  color: #333;
+  font-weight: 500;
+}

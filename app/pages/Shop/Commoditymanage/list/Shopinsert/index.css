@@ -1,0 +1,17 @@
+.shops-aded-size-tip {
+  height: 30px;
+  background: #FFEBDC;
+  color: #FD9B52;
+  line-height: 30px;
+}
+.basicdatga-icon .win-icon-color {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.clearul {
+  overflow-y: auto;
+}
+.iconfontclick {
+  color: #4AAAF3;
+  cursor: pointer;
+}
